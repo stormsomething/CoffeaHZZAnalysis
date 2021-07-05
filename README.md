@@ -12,4 +12,6 @@ Runtime Comparisons:
 
 -Coffea Processor (with list comprehension): ~20 minutes
 
--Coffea Processor (with vectorized functions):
+-Coffea Processor (with all vectorized functions except calc_weight): ~2 minutes
+
+-Coffea Processor (with all vectorized functions): ~3 seconds
