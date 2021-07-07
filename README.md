@@ -4,9 +4,9 @@ Based on https://github.com/atlas-outreach-data-tools/notebooks-collection-opend
 
 To Address:
 
--Want to use hist for histograms rather than coffea.hist
+-Overlay dataset labels are missing
 
--The statistical uncertainties don't seem to line up exactly with what we have in the original analysis.
+-Error bars for the Monte Carlo datasets are missing
 
 Runtime Comparisons:
 
@@ -21,3 +21,5 @@ Runtime Comparisons:
 -Coffea Processor (with all vectorized functions except calc_weight): ~2 minutes
 
 -Coffea Processor (with all vectorized functions): ~3 seconds
+
+-Coffea Processor (using hist package instead of coffea.hist): ~3 seconds
