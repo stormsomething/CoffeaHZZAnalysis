@@ -2,12 +2,6 @@
 
 Based on https://github.com/atlas-outreach-data-tools/notebooks-collection-opendata/blob/master/13-TeV-examples/uproot_python/HZZAnalysis.ipynb.
 
-To Address:
-
--Overlay dataset labels are missing
-
--Error bars for the Monte Carlo datasets are missing
-
 Runtime Comparisons:
 
 -Original (data from https): ~15 minutes
@@ -22,4 +16,4 @@ Runtime Comparisons:
 
 -Coffea Processor (with all vectorized functions): ~3 seconds
 
--Coffea Processor (using hist package instead of coffea.hist): ~3 seconds
+-Coffea Processor (using hist package instead of coffea.hist): ~4 seconds
