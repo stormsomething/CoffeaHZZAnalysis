@@ -33,3 +33,7 @@ Cut order and method does not seem to significantly affect runtime.
 -Cut on Charge and Type Simultaneously with a Single Function: 2.7-3.3 seconds
 
 -Cut on Charge, then Type Directly in Processor without a Function: 2.7-3.6 seconds
+
+--
+
+-Cabinetry: ~7 seconds
