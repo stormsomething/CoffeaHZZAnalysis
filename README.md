@@ -36,4 +36,58 @@ Cut order and method does not seem to significantly affect runtime.
 
 --
 
--Cabinetry: ~7 seconds
+Discovery Significance Comparisons:
+
+-Bin Width: 5 GeV
+
+--Observed Significance: 2.345
+
+--Expected Significance: 1.301
+
+-Bin Width: 10 GeV
+
+--Observed Significance: 2.090
+
+--Expected Significance: 1.253
+
+-Bin Width: 2 GeV
+
+--Observed Significance: 1.887
+
+--Expected Significance: 1.509
+
+-Bin Width: 17 GeV
+
+--Observed Significance: 1.303
+
+--Expected Significance: 0.996
+
+-Bin Width: 1 GeV
+
+--Observed Significance: 2.674
+
+--Expected Significance: 1.688
+
+-Bin Width: 34 GeV
+
+--Observed Significance: 0.013
+
+--Expected Significance: 0.481
+
+-Bin Width: 1 GeV between 110 GeV and 140 GeV and 10 GeV elsewhere
+
+--Observed Significance: 2.244
+
+--Expected Significance: 1.624
+
+-Bin Width: 10 GeV between 110 GeV and 140 GeV and 1 GeV elsewhere
+
+--Observed Significance: 2.676
+
+--Expected Significance: 1.344
+
+-Bin Width: 30 GeV between 110 GeV and 140 GeV and 1 GeV elsewhere
+
+--Observed Significance: 1.429
+
+--Expected Significance: 0.743
