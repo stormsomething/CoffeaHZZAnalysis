@@ -91,3 +91,9 @@ Discovery Significance Comparisons:
 --Observed Significance: 1.429
 
 --Expected Significance: 0.743
+
+--
+
+-Cabinetry with Uproot Backend: ~14 seconds
+
+-Cabinetry with Coffea Backend: ~20 seconds
