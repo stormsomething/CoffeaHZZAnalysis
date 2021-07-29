@@ -2,102 +2,132 @@
 
 Based on https://github.com/atlas-outreach-data-tools/notebooks-collection-opendata/blob/master/13-TeV-examples/uproot_python/HZZAnalysis.ipynb.
 
-Runtime Comparisons:
+Also makes use of code from https://github.com/alexander-held/PyHEP-2021-cabinetry and https://github.com/gordonwatts/pyhep-2021-SX-OpenDataDemo.
 
--Original (data from https): ~15 minutes
+## Runtime Comparisons:
 
--Original (data stored locally): ~1 minute
+* Original (data from https): ~15 minutes
 
---
+* Original (data stored locally): ~1 minute
 
--Coffea Processor (with list comprehension): ~20 minutes
+---
 
--Coffea Processor (with cuts vectorized): ~11 minutes
+* Coffea Processor (with list comprehension): ~20 minutes
 
--Coffea Processor (with all vectorized functions except calc_weight): ~2 minutes
+* Coffea Processor (with cuts vectorized): ~11 minutes
 
--Coffea Processor (with all vectorized functions): ~3 seconds
+* Coffea Processor (with all vectorized functions except calc_weight): ~2 minutes
 
--Coffea Processor (using hist package instead of coffea.hist): ~4 seconds
+* Coffea Processor (with all vectorized functions): ~3 seconds
 
---
+* Coffea Processor (using hist package instead of coffea.hist): ~4 seconds
+
+---
 
 Cut order and method does not seem to significantly affect runtime.
 
--Cut on Charge, then Type: 2.7-3.9 seconds
+* Cut on Charge, then Type: 2.7-3.9 seconds
 
--Cut on Type, then Charge: 3.1-3.9 seconds
+* Cut on Type, then Charge: 3.1-3.9 seconds
 
--Cut on Charge and Type Simultaneously with Boolean Operators: 3.1-3.3 seconds
+* Cut on Charge and Type Simultaneously with Boolean Operators: 3.1-3.3 seconds
 
--Cut on Charge and Type Simultaneously with a Single Function: 2.7-3.3 seconds
+* Cut on Charge and Type Simultaneously with a Single Function: 2.7-3.3 seconds
 
--Cut on Charge, then Type Directly in Processor without a Function: 2.7-3.6 seconds
+* Cut on Charge, then Type Directly in Processor without a Function: 2.7-3.6 seconds
 
---
+---
 
-Discovery Significance Comparisons:
+* Cabinetry with Uproot Backend: ~14 seconds
 
--Bin Width: 5 GeV
+* Cabinetry with Coffea Backend: ~20 seconds
 
---Observed Significance: 2.345
+---
 
---Expected Significance: 1.301
+* Coffea getting data from ServiceX: ~5 seconds
 
--Bin Width: 10 GeV
+## Discovery Significance Comparisons (Bounds: 80-250 GeV except where stated otherwise):
 
---Observed Significance: 2.090
+* Bin Width: 5 GeV
 
---Expected Significance: 1.253
+  * Observed Significance: 2.345
 
--Bin Width: 2 GeV
+  * Expected Significance: 1.301
 
---Observed Significance: 1.887
+* Bin Width: 10 GeV
 
---Expected Significance: 1.509
+  * Observed Significance: 2.090
 
--Bin Width: 17 GeV
+  * Expected Significance: 1.253
 
---Observed Significance: 1.303
+* Bin Width: 2 GeV
 
---Expected Significance: 0.996
+  * Observed Significance: 1.887
 
--Bin Width: 1 GeV
+  * Expected Significance: 1.509
 
---Observed Significance: 2.674
+* Bin Width: 17 GeV
 
---Expected Significance: 1.688
+  * Observed Significance: 1.303
 
--Bin Width: 34 GeV
+  * Expected Significance: 0.996
 
---Observed Significance: 0.013
+* Bin Width: 1 GeV
 
---Expected Significance: 0.481
+  * Observed Significance: 2.674
 
--Bin Width: 1 GeV between 110 GeV and 140 GeV and 10 GeV elsewhere
+  * Expected Significance: 1.688
 
---Observed Significance: 2.244
+* Bin Width: 34 GeV
 
---Expected Significance: 1.624
+  * Observed Significance: 0.013
 
--Bin Width: 10 GeV between 110 GeV and 140 GeV and 1 GeV elsewhere
+  * Expected Significance: 0.481
 
---Observed Significance: 2.676
+* Bin Width: 1 GeV between 110 GeV and 140 GeV and 10 GeV elsewhere
 
---Expected Significance: 1.344
+  * Observed Significance: 2.244
 
--Bin Width: 30 GeV between 110 GeV and 140 GeV and 1 GeV elsewhere
+  * Expected Significance: 1.624
 
---Observed Significance: 1.429
+* Bin Width: 10 GeV between 110 GeV and 140 GeV and 1 GeV elsewhere
 
---Expected Significance: 0.743
+  * Observed Significance: 2.676
 
---
+  * Expected Significance: 1.344
 
--Cabinetry with Uproot Backend: ~14 seconds
+* Bin Width: 30 GeV between 110 GeV and 140 GeV and 1 GeV elsewhere
 
--Cabinetry with Coffea Backend: ~20 seconds
+  * Observed Significance: 1.429
 
---
+  * Expected Significance: 0.743
 
--Coffea getting data from ServiceX: ~5 seconds
+* Bin Width: 5 GeV, Bounds: 110-140 GeV 
+
+  * Observed Significance: 2.743
+
+  * Expected Significance: 1.044
+
+* Bin Width: 5 GeV, Bounds: 95-195 GeV 
+
+  * Observed Significance: 2.223
+
+  * Expected Significance: 1.253
+
+* Bin Width: 5 GeV, Bounds: 30-300 GeV 
+
+  * Observed Significance: 2.112
+
+  * Expected Significance: 1.282
+
+* Bin Width: 1 GeV, Bounds: 110-140 GeV 
+
+  * Observed Significance: 2.044
+
+  * Expected Significance: 1.335
+
+* Bin Width: 10 GeV, Bounds: 110-140 GeV 
+
+  * Observed Significance: 2.476
+
+  * Expected Significance: 1.020
