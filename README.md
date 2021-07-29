@@ -97,3 +97,7 @@ Discovery Significance Comparisons:
 -Cabinetry with Uproot Backend: ~14 seconds
 
 -Cabinetry with Coffea Backend: ~20 seconds
+
+--
+
+-Coffea getting data from ServiceX: ~5 seconds
