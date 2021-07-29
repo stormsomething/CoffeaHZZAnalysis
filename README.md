@@ -46,9 +46,13 @@ Cut order and method does not seem to significantly affect runtime.
 
 * Coffea getting data from ServiceX: ~5 seconds
 
-## Discovery Significance Comparisons (Bounds: 80-250 GeV except where stated otherwise):
+## Discovery Significance Comparisons:
 
-* Bin Width: 5 GeV
+Bin Width is 5 GeV except where stated otherwise.
+
+Bounds are 80-250 GeV except where stated otherwise.
+
+* Original Bins
 
   * Observed Significance: 2.345
 
@@ -102,19 +106,19 @@ Cut order and method does not seem to significantly affect runtime.
 
   * Expected Significance: 0.743
 
-* Bin Width: 5 GeV, Bounds: 110-140 GeV 
+* Bounds: 110-140 GeV 
 
   * Observed Significance: 2.743
 
   * Expected Significance: 1.044
 
-* Bin Width: 5 GeV, Bounds: 95-195 GeV 
+* Bounds: 95-195 GeV 
 
   * Observed Significance: 2.223
 
   * Expected Significance: 1.253
 
-* Bin Width: 5 GeV, Bounds: 30-300 GeV 
+* Bounds: 30-300 GeV 
 
   * Observed Significance: 2.112
 
