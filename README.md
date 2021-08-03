@@ -6,9 +6,21 @@ Also makes use of code from https://github.com/alexander-held/PyHEP-2021-cabinet
 
 ## Runtime Comparisons:
 
-* Original (data from https): ~15 minutes
+* Original (data from https): 16 minutes
 
-* Original (data stored locally): ~1 minute
+* Original (data stored locally): 33 seconds
+
+* Coffea Processor (data from https): 46 seconds
+
+* Coffea Processor (data stored locally): 6 seconds
+
+* Coffea Processor (data from ServiceX, uncached): 33 seconds
+
+* Coffea Processor (data from ServiceX, cached): 2 seconds
+
+* Cabinetry with Uproot Backend (data stored locally): 4 seconds
+
+* Cabinetry with Coffea Backend (data stored locally): 10 seconds
 
 ---
 
@@ -35,16 +47,6 @@ Cut order and method does not seem to significantly affect runtime.
 * Cut on Charge and Type Simultaneously with a Single Function: 2.7-3.3 seconds
 
 * Cut on Charge, then Type Directly in Processor without a Function: 2.7-3.6 seconds
-
----
-
-* Cabinetry with Uproot Backend: ~14 seconds
-
-* Cabinetry with Coffea Backend: ~20 seconds
-
----
-
-* Coffea getting data from ServiceX: ~5 seconds
 
 ## Discovery Significance Comparisons:
 
