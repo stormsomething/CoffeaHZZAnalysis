@@ -18,7 +18,7 @@ Also makes use of code from https://github.com/alexander-held/PyHEP-2021-cabinet
 
 * Coffea Processor (data from ServiceX, cached): 2 seconds
 
-* Cabinetry with Uproot Backend (data stored locally): 4 seconds
+* Cabinetry with Uproot Backend (data stored locally): 4 seconds (also 4 seconds on coffea-casa)
 
 * Cabinetry with Coffea Backend (data stored locally): 10 seconds
 
