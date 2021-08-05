@@ -38,15 +38,15 @@ Also makes use of code from https://github.com/alexander-held/PyHEP-2021-cabinet
 
 Cut order and method does not seem to significantly affect runtime.
 
-* Cut on Charge, then Type: 2.7-3.9 seconds
+* Cut on Charge, then Type: 5.0 seconds
 
-* Cut on Type, then Charge: 3.1-3.9 seconds
+* Cut on Type, then Charge: 5.3 seconds
 
-* Cut on Charge and Type Simultaneously with Boolean Operators: 3.1-3.3 seconds
+* Cut on Charge and Type Simultaneously with Boolean Operators: 4.8 seconds
 
-* Cut on Charge and Type Simultaneously with a Single Function: 2.7-3.3 seconds
+* Cut on Charge and Type Simultaneously with a Single Function: 5.2 seconds
 
-* Cut on Charge, then Type Directly in Processor without a Function: 2.7-3.6 seconds
+* Cut on Charge, then Type Directly in Processor without a Function: 4.6 seconds
 
 ## Discovery Significance Comparisons:
 
