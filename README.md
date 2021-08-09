@@ -1,6 +1,6 @@
 # CoffeaHZZAnalysis
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stormsomething/CoffeaHZZAnalysis/tree/main/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stormsomething/CoffeaHZZAnalysis/HEAD)
 
 Based on https://github.com/atlas-outreach-data-tools/notebooks-collection-opendata/blob/master/13-TeV-examples/uproot_python/HZZAnalysis.ipynb.
 
