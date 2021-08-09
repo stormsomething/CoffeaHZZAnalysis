@@ -1,6 +1,6 @@
 # CoffeaHZZAnalysis
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stormsomething/CoffeaHZZAnalysis/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stormsomething/CoffeaHZZAnalysis/HEAD?filepath=CoffeaHZZAnalysis.ipynb)
 
 Based on https://github.com/atlas-outreach-data-tools/notebooks-collection-opendata/blob/master/13-TeV-examples/uproot_python/HZZAnalysis.ipynb.
 
@@ -12,7 +12,7 @@ Also makes use of code from https://github.com/alexander-held/PyHEP-2021-cabinet
 
 * Original (data stored locally): 33 seconds
 
-* Coffea Processor (data from https): 46 seconds
+* Coffea Processor (data from https): 46 seconds (161 seconds on Binder)
 
 * Coffea Processor (data stored locally): 6 seconds
 
