@@ -5,7 +5,3 @@ matplotlib==3.4.2
 dask[distributed]==2021.6.0
 
 cabinetry==0.2.3
-
-func-adl==2.2.1
-func-adl-servicex==1.1b7
-servicex==2.4a4
