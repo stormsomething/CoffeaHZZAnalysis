@@ -1,5 +1,7 @@
 # CoffeaHZZAnalysis
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stormsomething/CoffeaHZZAnalysis/tree/main/HEAD)
+
 Based on https://github.com/atlas-outreach-data-tools/notebooks-collection-opendata/blob/master/13-TeV-examples/uproot_python/HZZAnalysis.ipynb.
 
 Also makes use of code from https://github.com/alexander-held/PyHEP-2021-cabinetry and https://github.com/gordonwatts/pyhep-2021-SX-OpenDataDemo.
