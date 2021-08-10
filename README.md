@@ -12,7 +12,7 @@ Also makes use of code from https://github.com/alexander-held/PyHEP-2021-cabinet
 
 * Original (data stored locally): 33 seconds
 
-* Coffea Processor (data from https): 46 seconds (3 minutes on Binder)
+* Coffea Processor (data from https): 46 seconds (3 minutes on Binder, 50 seconds on coffea-casa)
 
 * Coffea Processor (data stored locally): 6 seconds
 
